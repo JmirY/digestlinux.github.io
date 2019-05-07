@@ -13,7 +13,7 @@ tags: [Linux, File System, Device File]
   
 디바이스 파일은 문자 디바이스 파일과 블록 디바이스 파일로 나뉜다.  
 ### 문자 디바이스 파일  Character device file  
-문자 디바이스란 입력 혹은 출력하는 데이터가 순차적인 성질을 가지는 디바이스이다.  
+문자 디바이스란 입력 혹은 출력하는 데이터가 순차적인 성질을 갖는 디바이스이다.  
 문자 디바이스는 데이터를 문자(character) / byte 단위로 읽고 쓴다.  
 문자 디바이스로 키보드, 프린터, 마우스, 콘솔 등이 있다.  
   
@@ -30,7 +30,7 @@ tags: [Linux, File System, Device File]
 X : Y -> X는 디바이스의 id, Y는 디바이스의 객체 id
 {:.info}  
 디바이스 드라이버 종류의 id는 /proc/devices 파일을 통해 확인할 수 있다.  
-![devices](https://user-images.githubusercontent.com/17706039/57311844-60034100-7127-11e9-96ba-a2f6daa96f98.png)
+![devices](https://user-images.githubusercontent.com/17706039/57311844-60034100-7127-11e9-96ba-a2f6daa96f98.png){:.rounded}
   
 /dev/block/ 아래의 파일 중 sda와 sda1은  
 각각 시스템의 첫 번째 디스크, 첫 번째 디스크의 첫 번째 파티션을 의미한다.  
